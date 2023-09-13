@@ -15,7 +15,7 @@ public class UserDao {
 
     public UserDao(HttpSession session) throws Exception {
         Class.forName("org.mariadb.jdbc.Driver");
-        connection = DriverManager.getConnection("jdbc:mariadb://localhost:3306/logondb","root", "sapassword");
+        connection = DriverManager.getConnection("jdbc:mariadb://localhost:3306/logondb", "root", "sapassword");
         this.session = session;
     }
 

@@ -1,6 +1,7 @@
 package models;
 
 public class User {
+    // Duy bin
     private String user_name;
     private String password;
     private String fullname;
