@@ -1,8 +1,8 @@
-package dao;
+package chanh.example.week1.dao;
 
 
 import jakarta.servlet.http.HttpSession;
-import models.User;
+import chanh.example.week1.models.User;
 
 import java.sql.*;
 import java.util.ArrayList;

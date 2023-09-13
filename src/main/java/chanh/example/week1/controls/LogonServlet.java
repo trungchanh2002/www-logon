@@ -1,19 +1,18 @@
-package controls;
+package chanh.example.week1.controls;
 
 import chanh.example.week1.HelloServlet;
-import dao.UserDao;
+import chanh.example.week1.dao.UserDao;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
-import models.User;
+import chanh.example.week1.models.User;
 
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 @WebServlet(urlPatterns = {"/logon"})
 public class LogonServlet extends HelloServlet {

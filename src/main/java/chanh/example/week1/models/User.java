@@ -1,7 +1,7 @@
-package models;
+package chanh.example.week1.models;
 
 public class User {
-    // Duy bin
+    // Duy bin dep trai
     private String user_name;
     private String password;
     private String fullname;
