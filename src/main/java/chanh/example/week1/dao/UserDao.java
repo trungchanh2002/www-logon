@@ -27,7 +27,7 @@ public class UserDao {
         ResultSet rs = ps.executeQuery();
         if (rs.next()) {
             String role = rs.getString("role");
-            if (role.equalsIgnoreCase("admin1")) {
+            if (role.equalsIgnoreCase("ad")) {
                 Statement stmt = connection.createStatement();
                 ResultSet rsU = stmt.executeQuery("SELECT * FROM dbuser");
                 List<User> lst = new ArrayList<>();

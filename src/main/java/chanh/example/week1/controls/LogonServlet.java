@@ -1,6 +1,6 @@
 package chanh.example.week1.controls;
 
-import chanh.example.week1.HelloServlet;
+import chanh.example.week1.servlet.HelloServlet;
 import chanh.example.week1.dao.UserDao;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;

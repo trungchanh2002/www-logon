@@ -1,4 +1,4 @@
-package chanh.example.week1;
+package chanh.example.week1.servlet;
 
 import java.io.*;
 
